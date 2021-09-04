@@ -46,3 +46,7 @@ html {
     font-size: 1.8rem;
     margin: 0 10px;
 }
+
+#start {
+    background-color: var(--start);
+}
