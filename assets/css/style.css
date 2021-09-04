@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --background: #222324 ;
+    --text: #F7F7F7;
+    --gray: #848483;
+    --bonus: #4694FF;
+    --start: #30E584;
+}
