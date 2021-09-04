@@ -11,3 +11,8 @@
     --bonus: #4694FF;
     --start: #30E584;
 }
+
+body {
+    background: var(--background);
+    color: var(--text);
+}
