@@ -41,3 +41,7 @@ html {
 .icons {
     margin-bottom: 2rem;
 }
+
+.icons > i {
+    font-size: 1.8rem;
+}
