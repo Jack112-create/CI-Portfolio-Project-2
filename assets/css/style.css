@@ -31,3 +31,7 @@ html {
     align-items: center;
     margin-top: 10%;
 }
+
+#home-screen h1 {
+    text-align: center;
+}
