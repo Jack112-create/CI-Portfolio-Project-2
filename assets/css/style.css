@@ -51,4 +51,5 @@ html {
     background-color: var(--start);
     color: var(--text);
     width: 60%;
+    font-size: 1.8rem;
 }
