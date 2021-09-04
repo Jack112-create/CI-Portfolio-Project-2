@@ -52,4 +52,5 @@ html {
     color: var(--text);
     width: 60%;
     font-size: 1.8rem;
+    border: 1px solid #FFF;
 }
