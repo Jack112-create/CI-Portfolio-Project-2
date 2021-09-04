@@ -47,6 +47,10 @@ html {
     margin: 0 10px;
 }
 
+.btn {
+    padding: 1rem 2rem;
+}
+
 #start {
     background-color: var(--start);
     color: var(--text);
