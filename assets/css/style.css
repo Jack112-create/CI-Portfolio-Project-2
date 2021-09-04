@@ -49,4 +49,5 @@ html {
 
 #start {
     background-color: var(--start);
+    color: var(--text);
 }
