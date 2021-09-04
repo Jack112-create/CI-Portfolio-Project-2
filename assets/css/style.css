@@ -24,3 +24,9 @@ body {
 html {
     font-size: 10px;
 }
+
+#home-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
