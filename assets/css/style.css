@@ -72,3 +72,9 @@ html {
 #instructions li {
     padding: 0.5rem 0;
 }
+
+#bonus {
+    background-color: var(--bonus);
+    color: var(--text);
+    width: 30%;
+}
