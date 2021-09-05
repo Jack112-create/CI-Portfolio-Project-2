@@ -49,15 +49,15 @@ html {
 
 .btn {
     padding: 1rem 2rem;
+    font-size: 1.8rem;
+    border: 1px solid #FFF;
+    margin-bottom: 3rem;
 }
 
 #start {
     background-color: var(--start);
     color: var(--text);
     width: 60%;
-    font-size: 1.8rem;
-    border: 1px solid #FFF;
-    margin-bottom: 3rem;
 }
 
 .how-to-play h2 {
