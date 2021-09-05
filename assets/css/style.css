@@ -54,6 +54,10 @@ html {
     margin-bottom: 3rem;
 }
 
+#start:hover, #bonus:hover {
+    background-color: var(--background);
+}
+
 #start {
     background-color: var(--start);
     color: var(--text);
