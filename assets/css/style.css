@@ -65,6 +65,10 @@ html {
     margin-bottom: 1rem;
 }
 
+#instructions {
+    margin-bottom: 1.5rem;
+}
+
 #instructions li {
     padding: 0.5rem 0;
 }
