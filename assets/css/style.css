@@ -64,3 +64,7 @@ html {
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
+
+#instructions li {
+    padding: 0.5rem 0;
+}
