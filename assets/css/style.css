@@ -8,7 +8,7 @@
 }
 
 :root {
-    --background: #222324 ;
+    --background: #222324;
     --text: #F7F7F7;
     --gray: #848483;
     --bonus: #4694FF;
@@ -40,9 +40,20 @@ html {
 
 .icons {
     margin-bottom: 2rem;
+    animation: fadeIn ease 3s;
 }
 
-.icons > i {
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.icons>i {
     font-size: 1.8rem;
     margin: 0 10px;
 }
@@ -54,7 +65,8 @@ html {
     margin-bottom: 3rem;
 }
 
-#start:hover, #bonus:hover {
+#start:hover,
+#bonus:hover {
     background-color: var(--background);
 }
 
