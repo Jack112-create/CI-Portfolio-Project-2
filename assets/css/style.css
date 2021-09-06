@@ -108,4 +108,9 @@ html {
     #home-screen h1 {
         font-size: 4rem;
     }
+
+    .icons>i {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
 }
