@@ -95,3 +95,9 @@ html {
     color: var(--text);
     width: 30%;
 }
+
+
+/* Tablet styles */
+@media only screen and (min-width: 768px) {
+
+}
