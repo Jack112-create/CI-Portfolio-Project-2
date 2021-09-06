@@ -102,5 +102,6 @@ html {
     #home-screen {
         margin: 0;
         justify-content: center;
+        height: 100vh;
     }
 }
