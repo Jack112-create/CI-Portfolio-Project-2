@@ -104,4 +104,8 @@ html {
         justify-content: center;
         height: 100vh;
     }
+
+    #home-screen h1 {
+        font-size: 4rem;
+    }
 }
