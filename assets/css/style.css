@@ -121,4 +121,8 @@ html {
     #instructions li {
         font-size: 2rem;
     }
+
+    #bonus {
+        width: 10%;
+    }
 }
