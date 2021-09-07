@@ -98,6 +98,9 @@ html {
 }
 
 /* Game styles */
+#game-screen {
+    height: 100vh;
+}
 
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
