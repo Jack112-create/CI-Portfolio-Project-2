@@ -142,7 +142,7 @@ html {
     font-size: 1.8rem;
 }
 
-.player p {
+.player, .computer p {
     font-size: 1.3rem;
 }
 
