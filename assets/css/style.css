@@ -162,8 +162,8 @@ html {
 }
 
 /* Bonus game styles */
-
 #bonus-game {
+    height: 100vh;
     display: none; /* Hidden by default */
 }
 
