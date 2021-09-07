@@ -129,5 +129,7 @@ html {
 
 /* Laptop styles */
 @media only screen and (min-width: 1024px) {
-    
+    #home-screen h1 {
+        font-size: 4.5rem;
+    }
 }
