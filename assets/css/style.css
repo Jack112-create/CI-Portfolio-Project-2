@@ -184,6 +184,11 @@ html {
     #bonus {
         width: 10%;
     }
+
+    #game-area {
+        height: 50vh;
+        justify-content: center;
+    }
 }
 
 /* Laptop styles */
