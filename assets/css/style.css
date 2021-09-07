@@ -209,6 +209,14 @@ html {
     .player, .computer p {
         font-size: 2.3rem;
     }
+
+    .choice {
+        font-size: 3rem;
+    }
+
+    .computer i {
+        font-size: 3rem;
+    }
 }
 
 /* Laptop styles */
