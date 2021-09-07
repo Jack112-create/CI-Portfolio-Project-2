@@ -127,6 +127,11 @@ html {
     text-align: center;
 }
 
+.players span {
+    font-size: 1.3rem;
+    display: block;
+}
+
 .player, .computer {
     flex: 50%;
     margin: 1rem;
