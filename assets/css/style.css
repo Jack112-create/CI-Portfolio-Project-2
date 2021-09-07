@@ -193,6 +193,10 @@ html {
         height: 50vh;
         justify-content: center;
     }
+
+    .round-result {
+        font-size: 3rem;
+    }
 }
 
 /* Laptop styles */
