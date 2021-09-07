@@ -151,6 +151,11 @@ html {
     margin: 1rem;
 }
 
+.computer i {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
     #home-screen {
