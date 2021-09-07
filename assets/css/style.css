@@ -120,6 +120,12 @@ html {
     font-size: 2rem;
 }
 
+.players {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
     #home-screen {
