@@ -201,6 +201,10 @@ html {
     .players span {
         font-size: 2.3rem;
     }
+
+    .player h1, .computer h1 {
+        font-size: 2.8rem;
+    }
 }
 
 /* Laptop styles */
