@@ -197,6 +197,10 @@ html {
     .round-result {
         font-size: 3rem;
     }
+
+    .players span {
+        font-size: 2.3rem;
+    }
 }
 
 /* Laptop styles */
