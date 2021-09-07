@@ -132,6 +132,10 @@ html {
     margin: 1rem;
 }
 
+.player h1, .computer h1 {
+    font-size: 1.8rem;
+}
+
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
     #home-screen {
