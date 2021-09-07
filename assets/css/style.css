@@ -30,7 +30,6 @@ html {
     flex-direction: column;
     align-items: center;
     margin-top: 10%;
-    display: none;
 }
 
 #home-screen h1 {
@@ -150,6 +149,10 @@ html {
 .choice {
     font-size: 2rem;
     margin: 1rem;
+}
+
+.choice:hover {
+    transform: scale(1.2);
 }
 
 .computer i {
