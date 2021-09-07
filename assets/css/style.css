@@ -123,9 +123,10 @@ html {
 .players {
     width: 100%;
     display: flex;
-    justify-content: space-around;
     text-align: center;
 }
+
+
 
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
