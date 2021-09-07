@@ -205,6 +205,10 @@ html {
     .player h1, .computer h1 {
         font-size: 2.8rem;
     }
+
+    .player, .computer p {
+        font-size: 2.3rem;
+    }
 }
 
 /* Laptop styles */
