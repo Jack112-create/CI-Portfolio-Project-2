@@ -185,6 +185,10 @@ html {
         width: 10%;
     }
 
+    .controls {
+        font-size: 2rem;
+    }
+
     #game-area {
         height: 50vh;
         justify-content: center;
