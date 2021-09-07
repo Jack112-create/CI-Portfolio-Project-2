@@ -126,7 +126,9 @@ html {
     text-align: center;
 }
 
-
+.player, .computer {
+    flex: 50%;
+}
 
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
