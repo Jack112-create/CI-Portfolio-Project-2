@@ -132,4 +132,8 @@ html {
     #home-screen h1 {
         font-size: 4.5rem;
     }
+
+    .icons>i {
+        font-size: 4rem;
+    }
 }
