@@ -135,6 +135,7 @@ html {
 .player, .computer {
     flex: 50%;
     margin: 1rem;
+    border: 1px solid var(--gray);
 }
 
 .player h1, .computer h1 {
