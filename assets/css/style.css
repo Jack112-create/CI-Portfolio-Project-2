@@ -30,7 +30,6 @@ html {
     flex-direction: column;
     align-items: center;
     margin-top: 10%;
-    display: none; /* Hide while styling bonus game */
 }
 
 #home-screen h1 {
@@ -100,7 +99,7 @@ html {
 /* Game styles */
 #game-screen {
     height: 100vh;
-    display: none; /* Hide while styling bonus game */
+    display: none; /* Hidden by default */
 }
 
 .controls {
@@ -163,6 +162,11 @@ html {
 }
 
 /* Bonus game styles */
+
+#bonus-game {
+    display: none; /* Hidden by default */
+}
+
 .language {
     width: 50px;
     margin: 1rem 0;
