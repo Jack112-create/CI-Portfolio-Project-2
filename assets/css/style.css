@@ -102,6 +102,13 @@ html {
     height: 100vh;
 }
 
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
     #home-screen {
