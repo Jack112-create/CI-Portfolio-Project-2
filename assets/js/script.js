@@ -25,7 +25,6 @@ for (home of homeBtn) {
 
 // Game screen display functions.
 function displayHomeScreen() {
-    clickSound.play();
     bonusScreen.style.display = 'none';
     gameScreen.style.display = 'none';
     homeScreen.style.display = 'flex';
@@ -35,14 +34,12 @@ function displayGameScreen() {
     homeScreen.style.display = 'none';
     bonusScreen.style.display = 'none';
     gameScreen.style.display = 'block';
-    winSound.play();
 };
 
 function displayBonusScreen() {
     homeScreen.style.display = 'none';
     gameScreen.style.display = 'none';
     bonusScreen.style.display = 'block';
-    loseSound.play();
 };
 
 // Loop over Player buttons - Loop over each choice and return the ID of the button that was clicked, run game function.
