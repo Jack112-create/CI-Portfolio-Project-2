@@ -13,6 +13,11 @@ const homeBtn = document.getElementsByClassName('home');
 startBtn.addEventListener('click', displayGameScreen);
 bonusBtn.addEventListener('click', displayBonusScreen);
 
+// Loop over home buttons class and add event listener.
+for (home of homeBtn) {
+    home.addEventListener('click', displayHomeScreen);
+};
+
 // Loop over Player buttons - Loop over each choice and return the ID of the button that was clicked, run game function.
 
 // Computer Choice Function - Computer is given an array and chooses a random choice.
