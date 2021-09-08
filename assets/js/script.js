@@ -9,3 +9,7 @@
 // Winner Modal Function - Modal appears when either player reaches 5 points.
 
 // Bonus Game Function - Check if the User choice of language corresponds to code displayed by Computer.
+
+// Mute game audio when clicking sound icon.
+
+// Clicking home icon brings user back to start screen.
