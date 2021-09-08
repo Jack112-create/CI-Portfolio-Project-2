@@ -1,11 +1,16 @@
 // Global variables.
 
-// Game screens.
+// Game screens variables.
 const homeScreen = document.getElementById('home-screen');
 const gameScreen = document.getElementById('game-screen');
 const bonusScreen = document.getElementById('bonus-game');
 
-// Navigation buttons.
+// Game audio variables.
+const clickSound = new Audio('assets/sounds/click.mp3');
+const winSound = new Audio('assets/sounds/winner.mp3');
+const loseSound = new Audio('assets/sounds/lose.mp3');
+
+// Navigation buttons variables.
 const startBtn = document.getElementById('start');
 const bonusBtn = document.getElementById('bonus');
 const homeBtn = document.getElementsByClassName('home');
@@ -20,6 +25,7 @@ for (home of homeBtn) {
 
 // Game screen display functions.
 function displayHomeScreen() {
+    clickSound.play();
     bonusScreen.style.display = 'none';
     gameScreen.style.display = 'none';
     homeScreen.style.display = 'flex';
@@ -29,12 +35,14 @@ function displayGameScreen() {
     homeScreen.style.display = 'none';
     bonusScreen.style.display = 'none';
     gameScreen.style.display = 'block';
+    winSound.play();
 };
 
 function displayBonusScreen() {
     homeScreen.style.display = 'none';
     gameScreen.style.display = 'none';
     bonusScreen.style.display = 'block';
+    loseSound.play();
 };
 
 // Loop over Player buttons - Loop over each choice and return the ID of the button that was clicked, run game function.
