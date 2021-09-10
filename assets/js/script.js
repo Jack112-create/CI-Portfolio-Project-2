@@ -31,11 +31,24 @@ for (home of homeBtn) {
 };
 
 /**
- * Loops over each choice and adds an event listener to each choice.
+ * Loops over each choice
+ * Adds an event listener to each choice.
  */
 for(let choice of userChoices) {
     choice.addEventListener('click', playGame);
 };
+
+/**
+ * Creates an array of choices.
+ * Generates a random choice from choices array.
+ * Assigns random choice to ComputerChoice variable.
+ */
+function generateComputerChoice() {
+    const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
+    const randomChoice = choices[Math.floor(Math.random() * choices.length)];
+    computerChoice = randomChoice;
+    console.log('Computer:', computerChoice);
+}
 
 function playGame(e) {
     userChoice = e.target.id;
