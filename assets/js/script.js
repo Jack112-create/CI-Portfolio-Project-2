@@ -30,6 +30,10 @@ for (home of homeBtn) {
     home.addEventListener('click', displayHomeScreen);
 };
 
+for(let choice of userChoices) {
+    choice.addEventListener('click', playGame);
+};
+
 // Game screen display functions.
 function displayHomeScreen() {
     bonusScreen.style.display = 'none';
