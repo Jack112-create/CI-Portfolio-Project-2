@@ -50,10 +50,47 @@ function generateComputerChoice() {
     console.log('Computer:', computerChoice);
 }
 
+function getResult() {
+    switch(userChoice + computerChoice) {
+        case 'rockscissors':
+        case 'rocklizard':
+        case 'paperrock':
+        case 'paperspock':
+        case 'scissorspaper':
+        case 'scissorslizard':
+        case 'lizardpaper':
+        case 'lizardspock':
+        case 'spockscissors':
+        case 'spockrock':
+            console.log('You win!');
+            break;
+        case 'scissorsrock':
+        case 'lizardrock':
+        case 'rockpaper':
+        case 'spockpaper':
+        case 'paperscissors':
+        case 'lizardscissors':
+        case 'paperlizard':
+        case 'spocklizard':
+        case 'scissorsspock':
+        case 'rockspock':
+            console.log('You Lose!');
+            break;
+        case 'rockrock':
+        case 'paperpaper':
+        case 'scissorsscissors':
+        case 'lizardlizard':
+        case 'spockspock':
+            console.log('Its a draw!');
+            break;
+    }
+}
+
 function playGame(e) {
     userChoice = e.target.id;
     console.log('User:', userChoice);
     generateComputerChoice();
+    getResult();
 }
 
 // Game screen display functions.
