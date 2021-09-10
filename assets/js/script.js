@@ -1,5 +1,5 @@
 // Global variables.
-
+const userChoices = document.getElementsByClassName('choice');
 let userChoice;
 let computerChoice;
 
