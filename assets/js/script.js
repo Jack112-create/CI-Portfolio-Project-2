@@ -1,5 +1,12 @@
 // Global variables.
 
+let userChoice;
+let computerChoice;
+
+// Default score values
+let playerScore = 0;
+let computerScore = 0;
+
 // Game screens variables.
 const homeScreen = document.getElementById('home-screen');
 const gameScreen = document.getElementById('game-screen');
