@@ -30,6 +30,9 @@ for (home of homeBtn) {
     home.addEventListener('click', displayHomeScreen);
 };
 
+/**
+ * Loops over each choice and adds an event listener to each choice.
+ */
 for(let choice of userChoices) {
     choice.addEventListener('click', playGame);
 };
