@@ -53,6 +53,7 @@ function generateComputerChoice() {
 function playGame(e) {
     userChoice = e.target.id;
     console.log('User:', userChoice);
+    generateComputerChoice();
 }
 
 // Game screen display functions.
