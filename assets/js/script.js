@@ -34,6 +34,11 @@ for(let choice of userChoices) {
     choice.addEventListener('click', playGame);
 };
 
+function playGame(e) {
+    userChoice = e.target.id;
+    console.log('User:', userChoice);
+}
+
 // Game screen display functions.
 function displayHomeScreen() {
     bonusScreen.style.display = 'none';
