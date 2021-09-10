@@ -62,7 +62,8 @@ function getResult() {
         case 'lizardspock':
         case 'spockscissors':
         case 'spockrock':
-            console.log('You win!');
+            console.log('You win!'); 
+            incrementPlayerScore();
             break;
         case 'scissorsrock':
         case 'lizardrock':
@@ -75,6 +76,7 @@ function getResult() {
         case 'scissorsspock':
         case 'rockspock':
             console.log('You Lose!');
+            incrementComputerScore();
             break;
         case 'rockrock':
         case 'paperpaper':
@@ -84,6 +86,16 @@ function getResult() {
             console.log('Its a draw!');
             break;
     }
+}
+
+function incrementPlayerScore() {
+    let scoreHTML = document.getElementById('score');
+    scoreHTML.innerHTML = ++playerScore;
+};
+
+function incrementComputerScore() {
+    let computerHTML = document.getElementById('comp-score');
+    computerHTML.innerHTML = ++computerScore;
 }
 
 function playGame(e) {
