@@ -1,5 +1,6 @@
 // Global variables.
 const userChoices = document.getElementsByClassName('choice');
+const roundText = document.getElementById('round-text');
 let userChoice;
 let computerChoice;
 
@@ -63,6 +64,7 @@ function getResult() {
         case 'spockscissors':
         case 'spockrock':
             console.log('You win!'); 
+            roundText.innerHTML = 'You Win The Round!'
             incrementPlayerScore();
             break;
         case 'scissorsrock':
@@ -76,6 +78,7 @@ function getResult() {
         case 'scissorsspock':
         case 'rockspock':
             console.log('You Lose!');
+            roundText.innerHTML = 'Computer Wins The Round!'
             incrementComputerScore();
             break;
         case 'rockrock':
@@ -84,6 +87,7 @@ function getResult() {
         case 'lizardlizard':
         case 'spockspock':
             console.log('Its a draw!');
+            roundText.innerHTML = 'Draw!'
             break;
     }
 }
