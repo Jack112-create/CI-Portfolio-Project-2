@@ -48,7 +48,13 @@ function generateComputerChoice() {
     const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
     const randomChoice = choices[Math.floor(Math.random() * choices.length)];
     computerChoice = randomChoice;
+    displayComputerChoice();
     console.log('Computer:', computerChoice);
+}
+
+function displayComputerChoice() {
+    let computerIcon = document.getElementById('computer-icon');
+    computerIcon.className += `far fa-hand-${computerChoice}`;
 }
 
 function getResult() {
