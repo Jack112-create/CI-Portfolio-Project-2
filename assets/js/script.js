@@ -108,11 +108,24 @@ function incrementComputerScore() {
     computerHTML.innerHTML = ++computerScore;
 }
 
+function showWinner() {
+    const winnerModal = document.getElementById('winner-modal');
+    const modalHeader = document.getElementsByClassName('modal-header')[0];
+    const modalParagraph = document.getElementsByClassName('modal-result')[0];
+
+    if(playerScore === 5) {
+        winnerModal.style.display = 'block';
+        modalHeader.textContent = 'You Win The Game!';
+        modalParagraph.textContent = `You: ${playerScore} > Computer: ${computerScore}`;
+    };
+};
+
 function playGame(e) {
     userChoice = e.target.id;
     console.log('User:', userChoice);
     generateComputerChoice();
     getResult();
+    showWinner();
 }
 
 // Game screen display functions.
