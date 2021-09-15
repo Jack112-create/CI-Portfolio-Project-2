@@ -175,6 +175,7 @@ html {
 
 
 .modal-content {
+    position: relative;
     background-color: #f1d68b;
     text-align: center;
     color: black;
@@ -182,6 +183,20 @@ html {
     padding: 3rem;
     border: 3px solid white;
     width: 80%; 
+}
+
+.close {
+    color: black;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+  
+.close:hover {
+    color: rgb(221, 19, 19);
+    cursor: pointer;
 }
 
 /* Bonus game styles */
