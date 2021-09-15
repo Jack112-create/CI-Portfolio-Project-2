@@ -1,6 +1,7 @@
 // Global variables.
 const userChoices = document.getElementsByClassName('choice');
 const roundText = document.getElementById('round-text');
+const closeBtn = document.getElementsByClassName('close')[0];
 let userChoice;
 let computerChoice;
 
@@ -38,6 +39,8 @@ for (home of homeBtn) {
 for(let choice of userChoices) {
     choice.addEventListener('click', playGame);
 };
+
+closeBtn.addEventListener('click', closeModal);
 
 /**
  * Creates an array of choices.
@@ -131,6 +134,10 @@ function playGame(e) {
     getResult();
     showWinner();
 }
+
+function closeModal() {
+    document.getElementById('winner-modal').style.display = 'none';
+};
 
 // Game screen display functions.
 function displayHomeScreen() {
