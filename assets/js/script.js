@@ -148,6 +148,7 @@ function resetGame() {
     scoreHTML.innerHTML = playerScore;
     computerHTML.innerHTML = computerScore;
     roundText.innerHTML = '';
+    document.getElementById('computer-icon').className = `far fa-question`;
 };
 
 // Game screen display functions.
