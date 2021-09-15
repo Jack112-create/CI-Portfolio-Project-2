@@ -53,12 +53,12 @@ function generateComputerChoice() {
     computerChoice = randomChoice;
     displayComputerChoice();
     console.log('Computer:', computerChoice);
-}
+};
 
 function displayComputerChoice() {
     let computerIcon = document.getElementById('computer-icon');
     computerIcon.className += `far fa-hand-${computerChoice}`;
-}
+};
 
 function getResult() {
     switch(userChoice + computerChoice) {
@@ -98,8 +98,8 @@ function getResult() {
             console.log('Its a draw!');
             roundText.innerHTML = 'Draw!'
             break;
-    }
-}
+    };
+};
 
 function incrementPlayerScore() {
     let scoreHTML = document.getElementById('score');
@@ -109,7 +109,7 @@ function incrementPlayerScore() {
 function incrementComputerScore() {
     let computerHTML = document.getElementById('comp-score');
     computerHTML.innerHTML = ++computerScore;
-}
+};
 
 function showWinner() {
     const winnerModal = document.getElementById('winner-modal');
@@ -133,10 +133,21 @@ function playGame(e) {
     generateComputerChoice();
     getResult();
     showWinner();
-}
+};
 
 function closeModal() {
     document.getElementById('winner-modal').style.display = 'none';
+    resetGame();
+};
+
+function resetGame() {
+    let scoreHTML = document.getElementById('score');
+    let computerHTML = document.getElementById('comp-score');
+    playerScore = 0;
+    computerScore = 0;
+    scoreHTML.innerHTML = playerScore;
+    computerHTML.innerHTML = computerScore;
+    roundText.innerHTML = '';
 };
 
 // Game screen display functions.
