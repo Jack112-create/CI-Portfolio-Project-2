@@ -150,7 +150,7 @@ function resetGame() {
     scoreHTML.innerHTML = playerScore;
     computerHTML.innerHTML = computerScore;
     roundText.innerHTML = '';
-    document.getElementById('computer-icon').className = `far fa-question`;
+    document.getElementById('computer-icon').className = `fas fa-question`;
 };
 
 // Game screen display functions.
