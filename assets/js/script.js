@@ -120,10 +120,12 @@ function showWinner() {
         winnerModal.style.display = 'block';
         modalHeader.textContent = 'You Win The Game!';
         modalParagraph.textContent = `You: ${playerScore} > Computer: ${computerScore}`;
+        winSound.play();
     } else if(computerScore === 5) {
         winnerModal.style.display = 'block';
         modalHeader.textContent = 'You Lose The Game!';
         modalParagraph.textContent = `Computer: ${computerScore} > You: ${playerScore}`;
+        loseSound.play();
     };
 };
 
