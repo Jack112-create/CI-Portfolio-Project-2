@@ -43,6 +43,13 @@ for(let choice of userChoices) {
 
 closeBtn.addEventListener('click', closeModal);
 
+toggleAudio.addEventListener('click', (e) => {
+    e.target.style.color = 'red';
+    clickSound.muted = true;
+    winSound.muted = true;
+    loseSound.muted = true;
+});
+
 /**
  * Creates an array of choices.
  * Generates a random choice from choices array.
