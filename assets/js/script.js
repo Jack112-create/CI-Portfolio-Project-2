@@ -4,6 +4,7 @@ const roundText = document.getElementById('round-text');
 const closeBtn = document.getElementsByClassName('close')[0];
 let userChoice;
 let computerChoice;
+let toggleAudio = document.getElementById('volume');
 
 // Default score values
 let playerScore = 0;
