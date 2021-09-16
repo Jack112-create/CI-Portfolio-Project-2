@@ -44,10 +44,19 @@ for(let choice of userChoices) {
 closeBtn.addEventListener('click', closeModal);
 
 toggleAudio.addEventListener('click', (e) => {
-    e.target.style.color = 'red';
-    clickSound.muted = true;
-    winSound.muted = true;
-    loseSound.muted = true;
+    if(clickSound.muted === false && winSound.muted === false && loseSound.muted === false ) {
+        e.target.style.color = 'red';
+        e.target.className = 'fas fa-volume-mute'
+        clickSound.muted = true;
+        winSound.muted = true;
+        loseSound.muted = true;
+    } else {
+        e.target.style.color = 'white';
+        e.target.className = 'fas fa-volume-up'
+        clickSound.muted = false;
+        winSound.muted = false;
+        loseSound.muted = false;
+    };
 });
 
 /**
