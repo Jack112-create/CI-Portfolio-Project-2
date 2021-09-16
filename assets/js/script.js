@@ -143,6 +143,7 @@ function playGame(e) {
     generateComputerChoice();
     getResult();
     showWinner();
+    clickSound.play();
 };
 
 function closeModal() {
