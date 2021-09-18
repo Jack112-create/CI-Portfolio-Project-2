@@ -190,12 +190,3 @@ function displayBonusScreen() {
     bonusScreen.style.display = 'block';
 };
 
-// Game Function - Check the User choice vs computer, increment score.
-
-// Game Reset Function - Reset both User and Computer score.
-
-// Winner Modal Function - Modal appears when either player reaches 5 points.
-
-// Bonus Game Function - Check if the User choice of language corresponds to code displayed by Computer.
-
-// Mute game audio when clicking sound icon.
