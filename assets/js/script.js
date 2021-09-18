@@ -74,7 +74,7 @@ function generateComputerChoice() {
 
 function displayComputerChoice() {
     let computerIcon = document.getElementById('computer-icon');
-    computerIcon.className += `far fa-hand-${computerChoice}`;
+    computerIcon.className = `far fa-hand-${computerChoice}`;
 };
 
 function getResult() {
