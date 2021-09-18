@@ -213,6 +213,10 @@ html {
     transform: scale(1.2);
 }
 
+code {
+    display: inline-block;
+}
+
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
     #home-screen {
