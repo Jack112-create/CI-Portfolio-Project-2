@@ -160,7 +160,7 @@ html {
     margin: 1rem;
 }
 
-#winner-modal {
+.winner-modal {
     display: none; /* Modal is hidden by default */
     position: fixed; 
     z-index: 1; 
