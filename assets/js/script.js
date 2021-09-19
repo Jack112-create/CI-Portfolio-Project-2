@@ -8,7 +8,7 @@ let toggleAudio = document.getElementById('volume');
 let scoreHTML = document.getElementsByClassName('score')[0];
 let computerHTML = document.getElementsByClassName('comp-score')[0];
 
-const winnerModal = document.getElementById('winner-modal')[0];
+const winnerModal = document.getElementsByClassName('winner-modal')[0];
 const modalHeader = document.getElementsByClassName('modal-header')[0];
 const modalParagraph = document.getElementsByClassName('modal-result')[0];
 
