@@ -47,7 +47,9 @@ for(let choice of userChoices) {
     choice.addEventListener('click', playGame);
 };
 
-closeBtn.addEventListener('click', closeModal);
+closeBtn.addEventListener('click', () => {
+    closeModal(winnerModal);
+});
 
 toggleAudio.addEventListener('click', (e) => {
     if(clickSound.muted === false && winSound.muted === false && loseSound.muted === false ) {
