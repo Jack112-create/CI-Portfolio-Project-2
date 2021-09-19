@@ -13,6 +13,13 @@ function bonusGame(e) {
     generateQuestion();
 };
 
+
+/**
+ *  Generates a random question,
+ * assigns new question to question variable,
+ * Displays question inside code element.
+ */
+
 function generateQuestion() {
     const code = document.getElementById('computer-code');
     const questions = ['html', 'css', 'js', 'python'];
