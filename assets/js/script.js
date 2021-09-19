@@ -5,6 +5,8 @@ const closeBtn = document.getElementsByClassName('close')[0];
 let userChoice;
 let computerChoice;
 let toggleAudio = document.getElementById('volume');
+let scoreHTML = document.getElementsByClassName('score')[0];
+let computerHTML = document.getElementsByClassName('comp-score')[0];
 
 // Default score values
 let playerScore = 0;
@@ -91,7 +93,7 @@ function getResult() {
         case 'spockrock':
             console.log('You win!'); 
             roundText.innerHTML = 'You Win The Round!'
-            incrementPlayerScore();
+            incrementPlayerScore(scoreHTML);
             break;
         case 'scissorsrock':
         case 'lizardrock':
@@ -105,7 +107,7 @@ function getResult() {
         case 'rockspock':
             console.log('You Lose!');
             roundText.innerHTML = 'Computer Wins The Round!'
-            incrementComputerScore();
+            incrementComputerScore(computerHTML);
             break;
         case 'rockrock':
         case 'paperpaper':
@@ -118,14 +120,12 @@ function getResult() {
     };
 };
 
-function incrementPlayerScore() {
-    let scoreHTML = document.getElementById('score');
-    scoreHTML.innerHTML = ++playerScore;
+function incrementPlayerScore(score) {
+    score.innerHTML = ++playerScore;
 };
 
-function incrementComputerScore() {
-    let computerHTML = document.getElementById('comp-score');
-    computerHTML.innerHTML = ++computerScore;
+function incrementComputerScore(score) {
+    score.innerHTML = ++computerScore;
 };
 
 function showWinner() {
