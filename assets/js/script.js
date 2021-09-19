@@ -151,7 +151,7 @@ function playGame(e) {
     console.log('User:', userChoice);
     generateComputerChoice();
     getResult();
-    showWinner();
+    showWinner(winnerModal, modalHeader, modalParagraph);
     clickSound.play();
 };
 
