@@ -21,11 +21,14 @@ function bonusGame(e) {
  */
 
 function generateQuestion() {
-    const code = document.getElementById('computer-code');
     const questions = ['html', 'css', 'js', 'python'];
     question = questions[Math.floor(Math.random() * questions.length)];
     console.log('question:', question);
+    displayQuestion();
+};
 
+function displayQuestion() {
+    const code = document.getElementById('computer-code');
     code.className = `language-${question}`;
 
     if(question === 'html') {
@@ -37,7 +40,6 @@ function generateQuestion() {
     } else {
         code.innerHTML = 'Print()';
     }
-
 };
 
 generateQuestion();
