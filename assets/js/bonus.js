@@ -52,8 +52,10 @@ function getQuestionResult() {
     if(userChoice === question) {
         bonusRoundText.innerHTML = 'You Chose The Correct Language!';
         generateQuestion();
+        incrementPlayerScore(bonusScoreHTML);
     } else {
         bonusRoundText.innerHTML = 'You Did Not Choose the Correct Language';
+        incrementComputerScore(bonusComputerHTML);
     }
 };
 
