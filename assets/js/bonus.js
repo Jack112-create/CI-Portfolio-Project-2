@@ -18,6 +18,7 @@ function bonusGame(e) {
     userChoice = e.target.id;
     console.log(userChoice);
     getQuestionResult();
+    showWinner(bonusWinnerModal, bonusModalHeader, bonusModalParagraph);
 };
 
 
