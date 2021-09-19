@@ -163,7 +163,7 @@ function closeModal(modal) {
 function resetGame(player, computer) {
     playerScore = 0;
     computerScore = 0;
-    scoreinnerHTML = playerScore;
+    player.innerHTML = playerScore;
     computer.innerHTML = computerScore;
     roundText.innerHTML = '';
     document.getElementById('computer-icon').className = `fas fa-question`;
