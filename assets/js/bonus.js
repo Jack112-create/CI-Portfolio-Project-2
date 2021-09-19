@@ -6,6 +6,10 @@ let question;
 let bonusScoreHTML = document.getElementsByClassName('score')[1];
 let bonusComputerHTML = document.getElementsByClassName('comp-score')[1];
 
+const bonusWinnerModal = document.getElementsByClassName('winner-modal')[1];
+const bonusModalHeader = document.getElementsByClassName('modal-header')[1];
+const bonusModalParagraph = document.getElementsByClassName('modal-result')[1];
+
 for (let language of languages) {
    language.addEventListener('click', bonusGame);
 };
