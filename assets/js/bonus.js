@@ -17,7 +17,6 @@ function bonusGame(e) {
 /**
  *  Generates a random question,
  * assigns new question to question variable,
- * Displays question inside code element.
  */
 
 function generateQuestion() {
@@ -26,6 +25,10 @@ function generateQuestion() {
     console.log('question:', question);
     displayQuestion();
 };
+
+/**
+ * Displays question inside code element.
+ */
 
 function displayQuestion() {
     const code = document.getElementById('computer-code');
