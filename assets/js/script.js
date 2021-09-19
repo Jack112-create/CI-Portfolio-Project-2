@@ -155,8 +155,8 @@ function playGame(e) {
     clickSound.play();
 };
 
-function closeModal() {
-    document.getElementById('winner-modal').style.display = 'none';
+function closeModal(modal) {
+    modal.style.display = 'none';
     resetGame(scoreHTML, computerHTML);
 };
 
