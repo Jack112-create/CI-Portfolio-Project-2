@@ -157,16 +157,14 @@ function playGame(e) {
 
 function closeModal() {
     document.getElementById('winner-modal').style.display = 'none';
-    resetGame();
+    resetGame(scoreHTML, computerHTML);
 };
 
-function resetGame() {
-    let scoreHTML = document.getElementById('score');
-    let computerHTML = document.getElementById('comp-score');
+function resetGame(player, computer) {
     playerScore = 0;
     computerScore = 0;
-    scoreHTML.innerHTML = playerScore;
-    computerHTML.innerHTML = computerScore;
+    scoreinnerHTML = playerScore;
+    computer.innerHTML = computerScore;
     roundText.innerHTML = '';
     document.getElementById('computer-icon').className = `fas fa-question`;
 };
