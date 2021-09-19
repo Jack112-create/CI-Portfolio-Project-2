@@ -11,7 +11,7 @@ for (let language of languages) {
 function bonusGame(e) {
     userChoice = e.target.id;
     console.log(userChoice);
-    generateQuestion();
+    getQuestionResult();
 };
 
 
@@ -43,6 +43,15 @@ function displayQuestion() {
         code.innerHTML = 'function() {}';
     } else {
         code.innerHTML = 'Print()';
+    }
+};
+
+function getQuestionResult() {
+    if(userChoice === question) {
+        bonusRoundText.innerHTML = 'You Chose The Correct Language!';
+        generateQuestion();
+    } else {
+        bonusRoundText.innerHTML = 'You Did Not Choose the Correct Language';
     }
 };
 
