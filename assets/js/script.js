@@ -29,7 +29,7 @@ startBtn.addEventListener('click', displayGameScreen);
 bonusBtn.addEventListener('click', displayBonusScreen);
 
 // Loop over home buttons class and add event listener.
-for (home of homeBtn) {
+for (let home of homeBtn) {
     home.addEventListener('click', displayHomeScreen);
 };
 
