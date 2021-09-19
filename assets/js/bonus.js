@@ -38,7 +38,6 @@ function generateQuestion() {
         code.innerHTML = 'Print()';
     }
 
-    return question;
 };
 
 generateQuestion();
