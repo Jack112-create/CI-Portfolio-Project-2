@@ -8,6 +8,10 @@ let toggleAudio = document.getElementById('volume');
 let scoreHTML = document.getElementsByClassName('score')[0];
 let computerHTML = document.getElementsByClassName('comp-score')[0];
 
+const winnerModal = document.getElementById('winner-modal')[0];
+const modalHeader = document.getElementsByClassName('modal-header')[0];
+const modalParagraph = document.getElementsByClassName('modal-result')[0];
+
 // Default score values
 let playerScore = 0;
 let computerScore = 0;
@@ -128,11 +132,7 @@ function incrementComputerScore(score) {
     score.innerHTML = ++computerScore;
 };
 
-function showWinner() {
-    const winnerModal = document.getElementById('winner-modal');
-    const modalHeader = document.getElementsByClassName('modal-header')[0];
-    const modalParagraph = document.getElementsByClassName('modal-result')[0];
-
+function showWinner(winnerModal, modalHeader, modalParagraph) {
     if(playerScore === 5) {
         winnerModal.style.display = 'block';
         modalHeader.textContent = 'You Win The Game!';
