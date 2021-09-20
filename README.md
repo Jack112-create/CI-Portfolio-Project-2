@@ -10,6 +10,11 @@ This game is targeted towards people who are looking for both a fun and nostalgi
 * [User Experience](#Introduction)
     * [Site Goals](#Site-Goals)
     * [User Stories](#User-Stories)
+    * [Strategy Plane](#Strategy)
+    * [Scope Plane](#Scope)
+    * [Structure Plane](#Structure)
+    * [Skeleton Plane](#Skeleton)
+    * [Surface Plane](#Surface)
     * [Wireframes](#Wireframes)
     * [Design](#Design)
     * [Testing](#Testing)
@@ -34,6 +39,17 @@ This game is targeted towards people who are looking for both a fun and nostalgi
 * Create a site that is simple in appearance by adding basic colours and layouts.
 * Provide the game with some humour for a more meaningful user sexperience.
 * Provide the user with feedback as they progress throughout the game.
+
+
+### Strategy
+
+### Scope
+
+### Structure
+
+### Skeleton
+
+### Surface
 
 ### Wireframes
 
