@@ -250,7 +250,7 @@ code {
         font-size: 2rem;
     }
 
-    #game-area {
+    .game-area {
         height: 50vh;
         justify-content: center;
     }
