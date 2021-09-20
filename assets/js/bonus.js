@@ -24,6 +24,7 @@ bonusCloseBtn.addEventListener('click', () => {
 function bonusGame(e) {
     userChoice = e.target.id;
     console.log(userChoice);
+    clickSound.play();
     getQuestionResult();
     showWinner(bonusWinnerModal, bonusModalHeader, bonusModalParagraph);
 };
