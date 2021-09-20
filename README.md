@@ -42,6 +42,7 @@ This game is targeted towards people who are looking for both a fun and nostalgi
 
 
 ### Strategy
+Rock Paper Scissors Lizard Spock is intended to be a quick but fun to play game. Users get to play the Rock Paper Scissors game we all know and love but with two new additional choices to make, Lizard and Spock.
 
 ### Scope
 
