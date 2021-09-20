@@ -37,7 +37,7 @@ bonusBtn.addEventListener('click', displayBonusScreen);
 // Loop over home buttons class and add event listener.
 for (let home of homeBtn) {
     home.addEventListener('click', displayHomeScreen);
-};
+}
 
 /**
  * Loops over each choice
@@ -45,7 +45,7 @@ for (let home of homeBtn) {
  */
 for(let choice of userChoices) {
     choice.addEventListener('click', playGame);
-};
+}
 
 closeBtn.addEventListener('click', () => {
     closeModal(winnerModal);
@@ -54,17 +54,17 @@ closeBtn.addEventListener('click', () => {
 toggleAudio.addEventListener('click', (e) => {
     if(clickSound.muted === false && winSound.muted === false && loseSound.muted === false ) {
         e.target.style.color = 'red';
-        e.target.className = 'fas fa-volume-mute'
+        e.target.className = 'fas fa-volume-mute';
         clickSound.muted = true;
         winSound.muted = true;
         loseSound.muted = true;
     } else {
         e.target.style.color = 'white';
-        e.target.className = 'fas fa-volume-up'
+        e.target.className = 'fas fa-volume-up';
         clickSound.muted = false;
         winSound.muted = false;
         loseSound.muted = false;
-    };
+    }
 });
 
 /**
@@ -78,12 +78,12 @@ function generateComputerChoice() {
     computerChoice = randomChoice;
     displayComputerChoice();
     console.log('Computer:', computerChoice);
-};
+}
 
 function displayComputerChoice() {
     let computerIcon = document.getElementById('computer-icon');
     computerIcon.className = `far fa-hand-${computerChoice}`;
-};
+}
 
 function getResult() {
     switch(userChoice + computerChoice) {
@@ -98,7 +98,7 @@ function getResult() {
         case 'spockscissors':
         case 'spockrock':
             console.log('You win!'); 
-            roundText.innerHTML = 'You Win The Round!'
+            roundText.innerHTML = 'You Win The Round!';
             incrementPlayerScore(scoreHTML);
             break;
         case 'scissorsrock':
@@ -112,7 +112,7 @@ function getResult() {
         case 'scissorsspock':
         case 'rockspock':
             console.log('You Lose!');
-            roundText.innerHTML = 'Computer Wins The Round!'
+            roundText.innerHTML = 'Computer Wins The Round!';
             incrementComputerScore(computerHTML);
             break;
         case 'rockrock':
@@ -121,18 +121,18 @@ function getResult() {
         case 'lizardlizard':
         case 'spockspock':
             console.log('Its a draw!');
-            roundText.innerHTML = 'Draw!'
+            roundText.innerHTML = 'Draw!';
             break;
-    };
-};
+    }
+}
 
 function incrementPlayerScore(score) {
     score.innerHTML = ++playerScore;
-};
+}
 
 function incrementComputerScore(score) {
     score.innerHTML = ++computerScore;
-};
+}
 
 function showWinner(winnerModal, modalHeader, modalParagraph) {
     if(playerScore === 5) {
@@ -145,8 +145,8 @@ function showWinner(winnerModal, modalHeader, modalParagraph) {
         modalHeader.textContent = 'You Lose The Game!';
         modalParagraph.textContent = `Computer: ${computerScore} > You: ${playerScore}`;
         loseSound.play();
-    };
-};
+    }
+}
 
 function playGame(e) {
     userChoice = e.target.id;
@@ -155,12 +155,12 @@ function playGame(e) {
     getResult();
     showWinner(winnerModal, modalHeader, modalParagraph);
     clickSound.play();
-};
+}
 
 function closeModal(modal) {
     modal.style.display = 'none';
     resetGame(scoreHTML, computerHTML);
-};
+}
 
 function resetGame(player, computer) {
     playerScore = 0;
@@ -169,7 +169,7 @@ function resetGame(player, computer) {
     computer.innerHTML = computerScore;
     roundText.innerHTML = '';
     document.getElementById('computer-icon').className = `fas fa-question`;
-};
+}
 
 // Game screen display functions.
 function displayHomeScreen() {
@@ -182,11 +182,10 @@ function displayGameScreen() {
     homeScreen.style.display = 'none';
     bonusScreen.style.display = 'none';
     gameScreen.style.display = 'block';
-};
+}
 
 function displayBonusScreen() {
     homeScreen.style.display = 'none';
     gameScreen.style.display = 'none';
     bonusScreen.style.display = 'block';
-};
-
+}
