@@ -14,8 +14,8 @@ This game is targeted towards people who are looking for both a fun and nostalgi
     * [Scope Plane](#Scope)
     * [Structure Plane](#Structure)
     * [Skeleton Plane](#Skeleton)
+        * [Wireframes](#Wireframes)
     * [Surface Plane](#Surface)
-    * [Wireframes](#Wireframes)
     * [Design](#Design)
     * [Testing](#Testing)
     * [Deployment](#Deployment)
@@ -72,9 +72,10 @@ Features to be included:
 
 ### Skeleton
 
+**Wireframes**
+
 ### Surface
 
-### Wireframes
 
 ### Design
 
