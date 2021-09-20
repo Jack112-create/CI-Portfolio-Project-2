@@ -105,6 +105,10 @@ I used Balsamiq to create wireframes of how the product would look on different 
         - The colours used for this project provide a slight retro feel to the game which is done by setting the background colour to a dark colour while using bright colours for button elements.
          ![Colour Palette](assets/design/colour-palette.png)
 
+    * Typography:
+
+        - The Changa font, from font awesome, was chosen for this project as it added a retro game style to the project. 
+
 ### Testing
 
 ### Deployment
