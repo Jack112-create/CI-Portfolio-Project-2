@@ -100,6 +100,11 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 * #### Design
 
+    * Colours:
+
+        - The colours used for this project provide a slight retro feel to the game which is done by setting the background colour to a dark colour while using bright colours for button elements.
+         ![Colour Palette](assets/design/colour-palette.png)
+
 ### Testing
 
 ### Deployment
