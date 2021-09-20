@@ -42,9 +42,19 @@ This game is targeted towards people who are looking for both a fun and nostalgi
 
 
 ### Strategy
-Rock Paper Scissors Lizard Spock is intended to be a quick but fun to play game. Users get to play the Rock Paper Scissors game we all know and love but with two new additional choices to make, Lizard and Spock.
+Rock Paper Scissors Lizard Spock is intended to be a quick but fun to play game. Users get to play the Rock Paper Scissors game we all know and love but now with two new additional choices to make, Lizard and Spock.
 
 ### Scope
+
+Features to be included:
+
+* Responsive Design - The game/site should function correctly on screen sizes such as Mobile devices, Tablets, Laptops and Desktops. The design should allow users to have a pleasant experience while playing the game no matter what device they use.
+
+* Navigation elements should be clearly visible to the user so that they can switch between the multiple screens without delay of looking for navigation elements.
+
+* The user should have the choice of choosing which game they would like to play at the home screen.
+
+* Audio elements should be clearly visible to the user so that they can switch between playing with game audio or playing with no audio.
 
 ### Structure
 
