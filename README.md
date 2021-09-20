@@ -74,6 +74,28 @@ Features to be included:
 
 **Wireframes**
 
+I used Balsamiq to create wireframes of how the product would look on different devices. Changes were made to a few of the designs shown below during development.
+
+* Home Screen
+![Home Screen Desktop](/assets/wireframes/desktop-home-view.png)
+![Home Screen Tablet](/assets/wireframes/tablet-home-view.png)
+![Home Screen Mobile](/assets/wireframes/mobile-home-view.png)
+
+* Game Screen
+![Game Screen Desktop](assets/wireframes/desktop-game-view.png)
+![Game Screen Tablet](assets/wireframes/tablet-game-view.png)
+![Game Screen Mobile](assets/wireframes/mobile-game-view.png)
+
+* Bonus Game Screen
+![Bonus Screen Desktop](assets/wireframes/desktop-bonus.png)
+![Bonus Screen Tablet](assets/wireframes/tablet-bonus.png)
+![Bonus Screen Mobile](assets/wireframes/mobile-bonus.png)
+
+* Modals
+![Desktop Modal](assets/wireframes/desktop-modal.png)
+![Tablet Modal](assets/wireframes/tablet-modal.png)
+![Mobile Modal](assets/wireframes/mobile-modal.png)
+
 ### Surface
 
 
