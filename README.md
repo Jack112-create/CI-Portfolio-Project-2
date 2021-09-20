@@ -72,7 +72,7 @@ Features to be included:
 
 ### Skeleton
 
-**Wireframes**
+* #### Wireframes
 
 I used Balsamiq to create wireframes of how the product would look on different devices. Changes were made to a few of the designs shown below during development.
 
