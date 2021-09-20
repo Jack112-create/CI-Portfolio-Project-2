@@ -30,6 +30,11 @@ This game is targeted towards people who are looking for both a fun and nostalgi
 
 ### Site Goals
 
+* Create a single page site that is easy to navigate through.
+* Create a site that is simple in appearance by adding basic colours and layouts.
+* Provide the game with some humour for a more meaningful user sexperience.
+* Provide the user with feedback as they progress throughout the game.
+
 ### Wireframes
 
 ### Design
