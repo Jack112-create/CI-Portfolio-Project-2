@@ -109,4 +109,19 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 ### Deployment
 
+* GitHub Pages:
+
+    1. Log into GitHub.
+
+    2. Select the repository for the Code-Nect project. (https://github.com/Jack112-create/CI-Portfolio-Project-2)
+
+    3. Navigate to and click on 'Settings'.
+
+    4. When the page has redirected, navigate to 'GitHub Pages' and proceed to click on the link.
+
+    5. Select branch to 'Main' from sources dropdown.
+
+    6. Click the generated link to the live site.
+
+
 ### Credits
