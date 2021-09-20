@@ -20,6 +20,14 @@ This game is targeted towards people who are looking for both a fun and nostalgi
 
 ### User Stories
 
+* As a user, I want a clear understanding of the game rules and how to win.
+* As a user, I want to see my score progress if I am the round winner.
+* As a user, I want my opponents score to progress if I am the loser of the round.
+* As a user, I want a message to appear, notifying me of the round winner.
+* As a user, I want to be able to navigate throughout multiple game screens and back to the home screen.
+* As a user, I want to be notified if I have won or lost the game.
+* As a user, I want to be able to toggle the game audio.
+
 ### Site Goals
 
 ### Wireframes
