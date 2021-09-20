@@ -16,7 +16,7 @@ This game is targeted towards people who are looking for both a fun and nostalgi
     * [Skeleton Plane](#Skeleton)
         * [Wireframes](#Wireframes)
     * [Surface Plane](#Surface)
-    * [Design](#Design)
+        * [Design](#Design)
     * [Testing](#Testing)
     * [Deployment](#Deployment)
     * [Credits](#Credits)
@@ -98,8 +98,7 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 ### Surface
 
-
-### Design
+* #### Design
 
 ### Testing
 
