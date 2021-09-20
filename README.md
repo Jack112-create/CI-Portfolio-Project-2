@@ -58,6 +58,18 @@ Features to be included:
 
 ### Structure
 
+* The home screen will provide a list instructions on how to play the game and win.
+
+* The game screen will provide scores for both the user and the computer so that the user can track if they are winning or losing as they progress through each round.
+
+* A message will appear on the screen that will either congragulate the user for winning or display a message of commiserations if they lose.
+
+* An audio file will be played when the game has finished, the sound will either be a satisfying or dissatisfying sound depending on if the user has won or lost the game.
+
+* An icon that will represent the home screen will be available to the user so that they can click it if they would like to revisit the home screen.
+
+* An icon that will represent the audio being on will be available to the user so that they can click it to toggle the game audio on and off.
+
 ### Skeleton
 
 ### Surface
