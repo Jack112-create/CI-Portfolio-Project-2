@@ -19,6 +19,7 @@ This game is targeted towards people who are looking for both a fun and nostalgi
         * [Wireframes](#Wireframes)
     * [Surface Plane](#Surface)
         * [Design](#Design)
+    * [Features](#Features)
     * [Testing](#Testing)
         * [HTML Validation](#HTML)
         * [CSS Validation](#CSS)
@@ -117,6 +118,10 @@ I used Balsamiq to create wireframes of how the product would look on different 
     * Icons:
 
         - Font Awesome was also used in the creation of this project in order to add icons for all of the player options, navigation and audio buttons.
+
+### Features
+
+
 
 ### Testing
 
