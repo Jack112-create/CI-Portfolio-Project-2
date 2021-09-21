@@ -127,6 +127,8 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 - Instructions on how to play the game are also clearly visible to the user so that they can understand how to win.
 
+![Home Screen](assets/features/home.png)
+
 **User stories related to this feature:**
 
 * As a user, I want a clear understanding of the game rules and how to win.
