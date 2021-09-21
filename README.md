@@ -133,6 +133,23 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 * As a user, I want a clear understanding of the game rules and how to win.
 
+#### Game Screen
+
+- The Game screen is where users can experience the sites main game, Rock Paper Scissors Lizard Spock.
+
+- The user plays against the computer to be the first to win 5 rounds in order to win the game.
+
+- As the user wins, loses or draws throughout each round, a block of text appears notifying them of their round win/loss/draw.
+
+- As the user progresses through each round their score increments if they are the round winner. If the player loses a round the computers score is then incremented.
+
+![Game Screen](assets/features/game-screen.png)
+
+**User stories related to this feature:**
+
+* As a user, I want to see my score progress if I am the round winner.
+* As a user, I want my opponents score to progress if I am the loser of the round.
+* As a user, I want a message to appear, notifying me of the round winner.
 
 ### Testing
 
