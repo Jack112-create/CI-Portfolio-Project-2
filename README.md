@@ -121,6 +121,15 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 ### Features
 
+#### Home Screen
+
+- The Home screen provides users with an eye catching animation of the game icons fading in along with two buttons that allow the user to proceed to the main game or a bonus game.
+
+- Instructions on how to play the game are also clearly visible to the user so that they can understand how to win.
+
+**User stories related to this feature:**
+
+* As a user, I want a clear understanding of the game rules and how to win.
 
 
 ### Testing
