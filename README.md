@@ -109,7 +109,7 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
     * Typography:
 
-        - The Changa font, from font awesome, was chosen for this project as it added a retro game style to the project. 
+        - I have used Google Fonts in order to find a font that would add a retro or game feeling to the project. I decided to use the Changa font as I feel that has achieved the previously discussed game feeling to the project.
 
 ### Testing
 
