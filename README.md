@@ -37,7 +37,7 @@ This game is targeted towards people who are looking for both a fun and nostalgi
 * As a user, I want a message to appear, notifying me of the round winner.
 * As a user, I want to be able to navigate throughout multiple game screens and back to the home screen.
 * As a user, I want to be notified if I have won or lost the game.
-* As a user, I want to be able to toggle the game audio.
+* As a user, I want to be able to toggle the game audio on and off.
 
 ### Site Goals
 
@@ -172,6 +172,19 @@ I used Balsamiq to create wireframes of how the product would look on different 
 **User stories related to this feature:**
 
 * As a user, I want to be notified if I have won or lost the game.
+
+#### Audio Toggle Button
+
+- The user has the choice to play the games with or without audio by clicking on the audio symbol.
+
+- When clicked on, the icon changes to a muted icon and also changes its colour to red.
+
+![Audio](assets/features/audio.png)
+![Audio Muted](assets/features/muted.png)
+
+**User stories related to this feature:**
+
+* As a user, I want to be able to toggle the game audio.
 
 ### Testing
 
