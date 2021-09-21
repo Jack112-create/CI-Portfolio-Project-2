@@ -111,6 +111,10 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
         - I have used Google Fonts in order to find a font that would add a retro or game feeling to the project. I decided to use the Changa font as I feel that has achieved the previously discussed game feeling to the project.
 
+    * Icons:
+
+        - Font Awesome was also used in the creation of this project in order to add icons for all of the player options, navigation and audio buttons.
+
 ### Testing
 
 ### Deployment
