@@ -151,6 +151,16 @@ I used Balsamiq to create wireframes of how the product would look on different 
 * As a user, I want my opponents score to progress if I am the loser of the round.
 * As a user, I want a message to appear, notifying me of the round winner.
 
+#### Navigation
+
+- Both game and bonus game screens have a home icon that allows the user to return to the home screen. This allows the user to navigate to play either the main game or bonus game.
+
+![Navigation](assets/features/navigation.png)
+
+**User stories related to this feature:**
+
+* As a user, I want to be able to navigate throughout multiple game screens and back to the home screen.
+
 ### Testing
 
 #### HTML
