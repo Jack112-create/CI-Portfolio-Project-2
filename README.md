@@ -1,5 +1,7 @@
 # Rock Paper Scissors Lizard Spock!
 
+![Am I Responsive](assets/mockup/responsive.png)
+
 ## Introduction
 Rock Paper Scissors Lizard Spock takes the classic Rock Paper Scissors game and adds 2 new choices, Lizard and Spock. This is a web based game that was created using HTML, CSS and JavaScript. Users of this game will need to make the correct choices in order to be the first to reach 5 points and beat the computer!
 
