@@ -20,9 +20,9 @@ This game is targeted towards people who are looking for both a fun and nostalgi
     * [Surface Plane](#Surface)
         * [Design](#Design)
     * [Testing](#Testing)
-        * [HTML Validation](#HTML-Validation)
-        * [CSS Validation](#CSS-Validation)
-        * [JavaScript Validation](#JavaScript Validation)
+        * [HTML Validation](#HTML)
+        * [CSS Validation](#CSS)
+        * [JavaScript Validation](#JavaScript)
     * [Deployment](#Deployment)
     * [Credits](#Credits)
     
