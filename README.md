@@ -120,6 +120,19 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 ### Testing
 
+#### HTML
+
+<!-- Still to be tested -->
+[W3C HTML validator](https://validator.w3.org/#validate_by_input) was used to validate the sites HTML. 
+
+#### CSS
+
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) was used to validate CSS used to style the site.
+
+#### JavaScript
+
+[JSHint JavaScript Validator](https://jshint.com/) was used to validate the JavaScript.
+
 ### Deployment
 
 * GitHub Pages:
