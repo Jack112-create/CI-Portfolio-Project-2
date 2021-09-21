@@ -161,6 +161,18 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 * As a user, I want to be able to navigate throughout multiple game screens and back to the home screen.
 
+#### Game Winner
+
+- When the user or computer has reached a score of 5, a message will appear notifying the player if they have won or lost the game. If the user has won the game, a cheerful trumpet sound will play. If the user is not the game winner, an obnoxious booing sound will play.
+
+- The final scores of both players also appear on screen so that the user can see how much they have either beaten or have lost to by the computer.
+
+![Game Winner](assets/features/game-winner.png)
+
+**User stories related to this feature:**
+
+* As a user, I want to be notified if I have won or lost the game.
+
 ### Testing
 
 #### HTML
