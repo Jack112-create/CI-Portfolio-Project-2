@@ -213,8 +213,8 @@ html {
     transform: scale(1.2);
 }
 
-pre {
-    display: inline-block;
+#code-html, #code-css, #code-javascript, #code-python {
+    display: none;
 }
 
 /* Tablet styles */

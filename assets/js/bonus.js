@@ -47,17 +47,35 @@ function generateQuestion() {
  */
 
 function displayQuestion() {
-    const code = document.getElementById('computer-code');
-    code.className = `language-${question}`;
+    const htmlQuestion = document.getElementById('code-html');
+    const cssQuestion = document.getElementById('code-css');
+    const javascriptQuestion = document.getElementById('code-javascript');
+    const pythonQuestion = document.getElementById('code-python');
 
     if(question === 'html') {
-        code.innerHTML = '&lt;h1&gt;Hello World&lt;/h1&gt';
+        htmlQuestion.style.display = 'inline-block';
+
+        cssQuestion.style.display = 'none';
+        javascriptQuestion.style.display = 'none';
+        pythonQuestion.style.display = 'none';
     } else if(question === 'css') {
-        code.innerHTML = 'p {color: red}';
+        cssQuestion.style.display = 'inline-block';
+
+        htmlQuestion.style.display = 'none';
+        javascriptQuestion.style.display = 'none';
+        pythonQuestion.style.display = 'none';
     } else if(question === 'javascript') {
-        code.innerHTML = 'function() {}';
+        javascriptQuestion.style.display = 'inline-block';
+
+        htmlQuestion.style.display = 'none';
+        cssQuestion.style.display = 'none';
+        pythonQuestion.style.display = 'none';
     } else {
-        code.innerHTML = 'Print()';
+        pythonQuestion.style.display = 'inline-block';
+
+        htmlQuestion.style.display = 'none';
+        cssQuestion.style.display = 'none';
+        javascriptQuestion.style.display = 'none';
     }
 };
 
