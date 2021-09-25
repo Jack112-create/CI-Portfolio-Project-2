@@ -213,7 +213,7 @@ html {
     transform: scale(1.2);
 }
 
-code {
+pre {
     display: inline-block;
 }
 
