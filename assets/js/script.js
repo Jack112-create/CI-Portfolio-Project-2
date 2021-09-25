@@ -4,7 +4,7 @@ const roundText = document.getElementById('round-text');
 const closeBtn = document.getElementsByClassName('close')[0];
 let userChoice;
 let computerChoice;
-let toggleAudio = document.getElementById('volume');
+let toggleAudio = document.getElementsByClassName('audio');
 let scoreHTML = document.getElementsByClassName('score')[0];
 let computerHTML = document.getElementsByClassName('comp-score')[0];
 
@@ -51,21 +51,25 @@ closeBtn.addEventListener('click', () => {
     closeModal(winnerModal);
 });
 
-toggleAudio.addEventListener('click', (e) => {
-    if(clickSound.muted === false && winSound.muted === false && loseSound.muted === false ) {
-        e.target.style.color = 'red';
-        e.target.className = 'fas fa-volume-mute';
-        clickSound.muted = true;
-        winSound.muted = true;
-        loseSound.muted = true;
-    } else {
-        e.target.style.color = 'white';
-        e.target.className = 'fas fa-volume-up';
-        clickSound.muted = false;
-        winSound.muted = false;
-        loseSound.muted = false;
-    }
-});
+for(let audio of toggleAudio) {
+    audio.addEventListener('click', (e) => {
+        if(clickSound.muted === false && winSound.muted === false && loseSound.muted === false ) {
+            e.target.style.color = 'red';
+            e.target.className = 'fas fa-volume-mute';
+            clickSound.muted = true;
+            winSound.muted = true;
+            loseSound.muted = true;
+        } else {
+            e.target.style.color = 'white';
+            e.target.className = 'fas fa-volume-up';
+            clickSound.muted = false;
+            winSound.muted = false;
+            loseSound.muted = false;
+        }
+    })
+}
+
+
 
 /**
  * Creates an array of choices.
