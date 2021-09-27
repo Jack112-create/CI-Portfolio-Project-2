@@ -116,7 +116,7 @@ html {
 }
 
 .game-area {
-    height: 50vh;
+    height: 100%;
     justify-content: center;
     display: flex;
     flex-direction: column;
