@@ -210,11 +210,6 @@ html {
     display: none; /* Hidden by default */
 }
 
-.languages {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .language {
     width: 50px;
