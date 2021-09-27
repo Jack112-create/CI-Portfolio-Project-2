@@ -4,7 +4,7 @@ const roundText = document.getElementById('round-text');
 const closeBtn = document.getElementsByClassName('close')[0];
 let userChoice;
 let computerChoice;
-let toggleAudio = document.getElementsByClassName('audio');
+let toggleAudio = document.getElementById('audio');
 let scoreHTML = document.getElementsByClassName('score')[0];
 let computerHTML = document.getElementsByClassName('comp-score')[0];
 
@@ -43,7 +43,7 @@ for (let home of homeBtn) {
  * Loops over each choice
  * Adds an event listener to each choice.
  */
-for(let choice of userChoices) {
+for (let choice of userChoices) {
     choice.addEventListener('click', playGame);
 }
 
@@ -51,23 +51,23 @@ closeBtn.addEventListener('click', () => {
     closeModal(winnerModal);
 });
 
-for(let audio of toggleAudio) {
-    audio.addEventListener('click', (e) => {
-        if(clickSound.muted === false && winSound.muted === false && loseSound.muted === false ) {
-            e.target.style.color = 'red';
-            e.target.className = 'fas fa-volume-mute';
-            clickSound.muted = true;
-            winSound.muted = true;
-            loseSound.muted = true;
-        } else {
-            e.target.style.color = 'white';
-            e.target.className = 'fas fa-volume-up';
-            clickSound.muted = false;
-            winSound.muted = false;
-            loseSound.muted = false;
-        }
-    })
-}
+
+toggleAudio.addEventListener('click', (e) => {
+    if (clickSound.muted === false && winSound.muted === false && loseSound.muted === false) {
+        e.target.style.color = 'red';
+        e.target.className = 'fas fa-volume-mute';
+        clickSound.muted = true;
+        winSound.muted = true;
+        loseSound.muted = true;
+    } else {
+        e.target.style.color = 'white';
+        e.target.className = 'fas fa-volume-up';
+        clickSound.muted = false;
+        winSound.muted = false;
+        loseSound.muted = false;
+    }
+})
+
 
 
 
@@ -90,7 +90,7 @@ function displayComputerChoice() {
 }
 
 function getResult() {
-    switch(userChoice + computerChoice) {
+    switch (userChoice + computerChoice) {
         case 'rockscissors':
         case 'rocklizard':
         case 'paperrock':
@@ -101,7 +101,7 @@ function getResult() {
         case 'lizardspock':
         case 'spockscissors':
         case 'spockrock':
-            console.log('You win!'); 
+            console.log('You win!');
             roundText.innerHTML = 'You Win The Round!';
             incrementPlayerScore(scoreHTML);
             break;
@@ -139,12 +139,12 @@ function incrementComputerScore(score) {
 }
 
 function showWinner(winnerModal, modalHeader, modalParagraph) {
-    if(playerScore === 5) {
+    if (playerScore === 5) {
         winnerModal.style.display = 'block';
         modalHeader.textContent = 'You Win The Game!';
         modalParagraph.textContent = `You: ${playerScore} > Computer: ${computerScore}`;
         winSound.play();
-    } else if(computerScore === 5) {
+    } else if (computerScore === 5) {
         winnerModal.style.display = 'block';
         modalHeader.textContent = 'You Lose The Game!';
         modalParagraph.textContent = `Computer: ${computerScore} > You: ${playerScore}`;
