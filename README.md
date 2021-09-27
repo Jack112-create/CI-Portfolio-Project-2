@@ -201,6 +201,10 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 [JSHint JavaScript Validator](https://jshint.com/) was used to validate the JavaScript.
 
+#### Browser Testing
+
+The site was tested on multiple browsers such as Chrome, Safari, FireFox, and works as intended.
+
 ### Deployment
 
 * GitHub Pages:
