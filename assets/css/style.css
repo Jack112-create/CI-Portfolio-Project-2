@@ -19,6 +19,7 @@ body {
     background: var(--background);
     color: var(--text);
     font-family: 'Changa', sans-serif;
+    position: relative;
 }
 
 html {
@@ -108,10 +109,15 @@ html {
     align-items: center;
     padding: 1rem;
     font-size: 1.5rem;
-    margin-bottom: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .game-area {
+    height: 50vh;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -251,7 +257,7 @@ html {
     }
 
     .game-area {
-        height: 50vh;
+        height: 90vh;
         justify-content: center;
     }
 
