@@ -180,16 +180,19 @@ function displayHomeScreen() {
     bonusScreen.style.display = 'none';
     gameScreen.style.display = 'none';
     homeScreen.style.display = 'flex';
+    document.getElementsByClassName('controls')[0].style.display = 'none'
 }
 
 function displayGameScreen() {
     homeScreen.style.display = 'none';
     bonusScreen.style.display = 'none';
     gameScreen.style.display = 'block';
+    document.getElementsByClassName('controls')[0].style.display = 'flex'
 }
 
 function displayBonusScreen() {
     homeScreen.style.display = 'none';
     gameScreen.style.display = 'none';
     bonusScreen.style.display = 'block';
+    document.getElementsByClassName('controls')[0].style.display = 'flex'
 }
