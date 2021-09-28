@@ -190,8 +190,7 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 #### HTML
 
-<!-- Still to be tested -->
-[W3C HTML validator](https://validator.w3.org/#validate_by_input) was used to validate the sites HTML. 
+[W3C HTML validator](https://validator.w3.org/nu/#textarea) was used to validate the sites HTML. 
 
 #### CSS
 
