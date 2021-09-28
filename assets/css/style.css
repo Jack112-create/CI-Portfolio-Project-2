@@ -69,11 +69,12 @@ html {
 #start:hover,
 #bonus:hover {
     background-color: var(--background);
+    color: var(--text);
 }
 
 #start {
     background-color: var(--start);
-    color: var(--text);
+    color: black;
     width: 30%;
 }
 
@@ -93,7 +94,7 @@ html {
 
 #bonus {
     background-color: var(--bonus);
-    color: var(--text);
+    color: black;
     width: 30%;
 }
 
