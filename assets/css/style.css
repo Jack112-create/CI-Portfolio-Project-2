@@ -145,7 +145,7 @@ html {
     padding: 1rem 0;
 }
 
-.player h1, .computer h1 {
+.player h2, .computer h2 {
     font-size: 1.8rem;
 }
 
@@ -275,7 +275,7 @@ html {
         padding: 2rem 0;
     }
 
-    .player h1, .computer h1 {
+    .player h2, .computer h2 {
         font-size: 2.8rem;
     }
 
