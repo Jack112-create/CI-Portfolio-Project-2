@@ -205,6 +205,10 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 The site was tested on multiple browsers such as Chrome, Safari, FireFox, and works as intended.
 
+### Lighthouse Testing
+
+![Lighthouse Test](assets/testing/lighthouse.png)
+
 ### Deployment
 
 * GitHub Pages:
