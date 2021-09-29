@@ -172,6 +172,7 @@ function resetGame(player, computer) {
     player.innerHTML = playerScore;
     computer.innerHTML = computerScore;
     roundText.innerHTML = '';
+    bonusRoundText.innerHTML = '';
     document.getElementById('computer-icon').className = `fas fa-question`;
 }
 
