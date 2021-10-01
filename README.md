@@ -234,3 +234,5 @@ The site was tested on multiple browsers such as Chrome, Safari, FireFox, and wo
 * [Free SFX](https://freesfx.co.uk/Default.aspx) provided sounds for the game.
 
 * [Flaticon](https://www.flaticon.com/free-icon/html-coding_13706) provided images of the languages used for the bonus game.
+
+* [Favicon.io](https://favicon.io/) was used to generate the site favicon.
