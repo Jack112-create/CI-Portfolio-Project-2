@@ -47,11 +47,17 @@ for (let choice of userChoices) {
     choice.addEventListener('click', playGame);
 }
 
+/**
+ * Close winner modal that is passed into the function.
+ */
 closeBtn.addEventListener('click', () => {
     closeModal(winnerModal);
 });
 
-
+/**
+ * Checks to see if the audio is muted or unmuted.
+ * Applies colour and icon.
+ */
 toggleAudio.addEventListener('click', (e) => {
     if (clickSound.muted === false && winSound.muted === false && loseSound.muted === false) {
         e.target.style.color = 'red';
@@ -84,6 +90,11 @@ function generateComputerChoice() {
     console.log('Computer:', computerChoice);
 }
 
+/**
+ * Targets computer-icon ID.
+ * A class is dynamically added to element with computer-icon ID.
+ * The computerChoice variable is added to the end of new class.
+ */
 function displayComputerChoice() {
     let computerIcon = document.getElementById('computer-icon');
     computerIcon.className = `far fa-hand-${computerChoice}`;
