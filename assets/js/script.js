@@ -100,6 +100,13 @@ function displayComputerChoice() {
     computerIcon.className = `far fa-hand-${computerChoice}`;
 }
 
+
+/**
+ * Checks a concatenated string of userChoice and ComputerChoice.
+ * Element with an ID of round-text is targeted and its innerHTML is set to notify the user if they are the round winner, round loser or if the round is a draw.
+ * User score is incremented if they have won the round.
+ * Computer score is incremented if they have won the round.
+ */
 function getResult() {
     switch (userChoice + computerChoice) {
         case 'rockscissors':
@@ -141,14 +148,27 @@ function getResult() {
     }
 }
 
+/**
+ * Player score is incremented.
+ */
 function incrementPlayerScore(score) {
     score.innerHTML = ++playerScore;
 }
 
+/**
+ * Computer score is incremented.
+ */
 function incrementComputerScore(score) {
     score.innerHTML = ++computerScore;
 }
 
+/**
+ * Checks player and computer score is eqaul to 5.
+ * Modal display is set to block.
+ * Modal header notifies the user if they have either won or lost the game.
+ * Modal paragraph shows the final score of both players.
+ * If the user has won, the winning game sound will play. If the user loses, the losing game sound will play.
+ */
 function showWinner(winnerModal, modalHeader, modalParagraph) {
     if (playerScore === 5) {
         winnerModal.style.display = 'block';
@@ -163,6 +183,14 @@ function showWinner(winnerModal, modalHeader, modalParagraph) {
     }
 }
 
+
+/**
+ * Checks the ID of the element that has been clicked on.
+ * The generateComputerChoice function is invoked.
+ * The getResult function is invoked.
+ * The showWinner function is invoked, passing the modal parameters.
+ * The click audio is played each time the player makes a choice. 
+ */
 function playGame(e) {
     userChoice = e.target.id;
     console.log('User:', userChoice);
@@ -172,11 +200,23 @@ function playGame(e) {
     clickSound.play();
 }
 
+/**
+ * Modal display is set to none.
+ * ResetGame function is invoked passing score parameters. 
+ */
 function closeModal(modal) {
     modal.style.display = 'none';
     resetGame(scoreHTML, computerHTML);
 }
 
+
+/**
+ * Player parameters are passed.
+ * Player score and Computer score are set to 0.
+ * Player innerHTML and Computer innerHTML is set to new scores.
+ * Round text is set to an empty string.
+ * Computer icon is set back to a question mark.
+ */
 function resetGame(player, computer) {
     playerScore = 0;
     computerScore = 0;
