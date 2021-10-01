@@ -227,6 +227,8 @@ The site was tested on multiple browsers such as Chrome, Safari, FireFox, and wo
 
 ### Credits
 
+#### Media
+
 * Am I Responsive is used to display responsiveness on different devices.
 
 * [Free SFX](https://freesfx.co.uk/Default.aspx) provided sounds for the game.
