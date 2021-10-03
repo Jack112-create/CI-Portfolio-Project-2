@@ -186,6 +186,16 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 * As a user, I want to be able to toggle the game audio.
 
+### Bonus Game
+
+- The Bonus Game gives the user the opportunity to test their knowledge of tech langauges!
+
+- The computer displays a block of code from one of four languages. HTML, CSS, JavaScript and Python.
+
+- The user must then select the correct language that corresponds with the block of code that is displayed by the computer.
+
+![Bonus Game](assets/features/bonus-game.png)
+
 ### Testing
 
 #### HTML
