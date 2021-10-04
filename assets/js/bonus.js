@@ -28,21 +28,6 @@ bonusCloseBtn.addEventListener('click', () => {
 });
 
 /**
- * Checks the ID of the element that has been clicked on.
- * The generateComputerChoice function is invoked.
- * The getQuestionResult function is invoked.
- * The showWinner function is invoked, passing the modal parameters.
- * The click audio is played each time the player makes a choice. 
- */
-function bonusGame(e) {
-    userChoice = e.target.id;
-    getQuestionResult();
-    showWinner(bonusWinnerModal, bonusModalHeader, bonusModalParagraph);
-    clickSound.play();
-};
-
-
-/**
  *  Generates a random question,
  * assigns new question to question variable.
  * DisplayQuestion function is invoked.
@@ -105,6 +90,20 @@ function getQuestionResult() {
         bonusRoundText.innerHTML = 'You Did Not Choose the Correct Language';
         incrementComputerScore(bonusComputerHTML);
     }
+};
+
+/**
+ * Checks the ID of the element that has been clicked on.
+ * The generateComputerChoice function is invoked.
+ * The getQuestionResult function is invoked.
+ * The showWinner function is invoked, passing the modal parameters.
+ * The click audio is played each time the player makes a choice. 
+ */
+function bonusGame(e) {
+    userChoice = e.target.id;
+    getQuestionResult();
+    showWinner(bonusWinnerModal, bonusModalHeader, bonusModalParagraph);
+    clickSound.play();
 };
 
 generateQuestion();
