@@ -102,8 +102,22 @@ function getQuestionResult() {
 function bonusGame(e) {
     userChoice = e.target.id;
     getQuestionResult();
-    showWinner(bonusWinnerModal, bonusModalHeader, bonusModalParagraph);
+    bonusShowWinner(bonusWinnerModal, bonusModalHeader, bonusModalParagraph);
     clickSound.play();
 };
+
+function bonusShowWinner(winnerModal, modalHeader, modalParagraph) {
+    if (playerScore === 4) {
+        winnerModal.style.display = 'block';
+        modalHeader.textContent = 'You Win The Game!';
+        modalParagraph.textContent = `Congragulations You know you're languages! You must be a Developer. `;
+        winSound.play();
+    } else if (computerScore === 4) {
+        winnerModal.style.display = 'block';
+        modalHeader.textContent = 'You Lose The Game!';
+        modalParagraph.textContent = `Awwwwww! You did not choose the correct languages.`;
+        loseSound.play();
+    }
+}
 
 generateQuestion();
