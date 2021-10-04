@@ -1,7 +1,6 @@
 // Global Variables
 const languages = document.getElementsByClassName('language');
 const bonusRoundText = document.getElementById('bonus-round-text');
-userChoice;
 let question;
 let bonusScoreHTML = document.getElementsByClassName('score')[1];
 let bonusComputerHTML = document.getElementsByClassName('comp-score')[1];
