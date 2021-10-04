@@ -16,7 +16,7 @@ const bonusCloseBtn = document.getElementsByClassName('close')[1];
  */
 for (let language of languages) {
    language.addEventListener('click', bonusGame);
-};
+}
 
 /**
  * CloseModal function is called passing the bonus game modal.
@@ -36,7 +36,7 @@ function generateQuestion() {
     const questions = ['html', 'css', 'javascript', 'python'];
     question = questions[Math.floor(Math.random() * questions.length)];
     displayQuestion();
-};
+}
 
 /**
  * Checks what langauge is provided to question variable.
@@ -73,7 +73,7 @@ function displayQuestion() {
         cssQuestion.style.display = 'none';
         javascriptQuestion.style.display = 'none';
     }
-};
+}
 
 /**
  * Checks if the userChoice is equal to question variable.
@@ -90,7 +90,7 @@ function getQuestionResult() {
         bonusRoundText.innerHTML = 'You Did Not Choose the Correct Language';
         incrementComputerScore(bonusComputerHTML);
     }
-};
+}
 
 /**
  * Checks the ID of the element that has been clicked on.
@@ -104,7 +104,7 @@ function bonusGame(e) {
     getQuestionResult();
     bonusShowWinner(bonusWinnerModal, bonusModalHeader, bonusModalParagraph);
     clickSound.play();
-};
+}
 
 function bonusShowWinner(winnerModal, modalHeader, modalParagraph) {
     if (playerScore === 4) {
