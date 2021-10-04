@@ -72,7 +72,7 @@ toggleAudio.addEventListener('click', (e) => {
         winSound.muted = false;
         loseSound.muted = false;
     }
-})
+});
 
 
 
@@ -87,7 +87,6 @@ function generateComputerChoice() {
     const randomChoice = choices[Math.floor(Math.random() * choices.length)];
     computerChoice = randomChoice;
     displayComputerChoice();
-    console.log('Computer:', computerChoice);
 }
 
 /**
@@ -133,7 +132,6 @@ function getResult() {
         case 'spocklizard':
         case 'scissorsspock':
         case 'rockspock':
-            console.log('You Lose!');
             roundText.innerHTML = 'Computer Wins The Round!';
             incrementComputerScore(computerHTML);
             break;
@@ -142,7 +140,6 @@ function getResult() {
         case 'scissorsscissors':
         case 'lizardlizard':
         case 'spockspock':
-            console.log('Its a draw!');
             roundText.innerHTML = 'Draw!';
             break;
     }
@@ -193,7 +190,6 @@ function showWinner(winnerModal, modalHeader, modalParagraph) {
  */
 function playGame(e) {
     userChoice = e.target.id;
-    console.log('User:', userChoice);
     generateComputerChoice();
     getResult();
     showWinner(winnerModal, modalHeader, modalParagraph);
@@ -232,19 +228,19 @@ function displayHomeScreen() {
     bonusScreen.style.display = 'none';
     gameScreen.style.display = 'none';
     homeScreen.style.display = 'flex';
-    document.getElementsByClassName('controls')[0].style.display = 'none'
+    document.getElementsByClassName('controls')[0].style.display = 'none';
 }
 
 function displayGameScreen() {
     homeScreen.style.display = 'none';
     bonusScreen.style.display = 'none';
     gameScreen.style.display = 'block';
-    document.getElementsByClassName('controls')[0].style.display = 'flex'
+    document.getElementsByClassName('controls')[0].style.display = 'flex';
 }
 
 function displayBonusScreen() {
     homeScreen.style.display = 'none';
     gameScreen.style.display = 'none';
     bonusScreen.style.display = 'block';
-    document.getElementsByClassName('controls')[0].style.display = 'flex'
+    document.getElementsByClassName('controls')[0].style.display = 'flex';
 }

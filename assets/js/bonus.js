@@ -36,7 +36,6 @@ bonusCloseBtn.addEventListener('click', () => {
  */
 function bonusGame(e) {
     userChoice = e.target.id;
-    console.log(userChoice);
     getQuestionResult();
     showWinner(bonusWinnerModal, bonusModalHeader, bonusModalParagraph);
     clickSound.play();
@@ -51,7 +50,6 @@ function bonusGame(e) {
 function generateQuestion() {
     const questions = ['html', 'css', 'javascript', 'python'];
     question = questions[Math.floor(Math.random() * questions.length)];
-    console.log('question:', question);
     displayQuestion();
 };
 
