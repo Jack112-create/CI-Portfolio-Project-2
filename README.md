@@ -43,7 +43,7 @@ This game is targeted towards people who are looking for both a fun and nostalgi
 
 * Create a single page site that is easy to navigate through.
 * Create a site that is simple in appearance by adding basic colours and layouts.
-* Provide the game with some humour for a more meaningful user sexperience.
+* Provide the game with some humour for a more meaningful user experience.
 * Provide the user with feedback as they progress throughout the game.
 
 
@@ -56,7 +56,7 @@ Features to be included:
 
 * Responsive Design - The game/site should function correctly on screen sizes such as Mobile devices, Tablets, Laptops and Desktops. The design should allow users to have a pleasant experience while playing the game no matter what device they use.
 
-* Navigation elements should be clearly visible to the user so that they can switch between the multiple screens without delay of looking for navigation elements.
+* Navigation elements should be clearly visible to the user so that they can switch between the multiple screens without delay of searching for navigational elements.
 
 * The user should have the choice of choosing which game they would like to play at the home screen.
 
@@ -66,21 +66,21 @@ Features to be included:
 
 * The home screen will provide a list instructions on how to play the game and win.
 
-* The game screen will provide scores for both the user and the computer so that the user can track if they are winning or losing as they progress through each round.
+* The game screen will provide scores for both the user and the computer. This allows the user to track both scores, seeing if they are winning or losing the game as they progress through each round.
 
 * A message will appear on the screen that will either congragulate the user for winning or display a message of commiserations if they lose.
 
 * An audio file will be played when the game has finished, the sound will either be a satisfying or dissatisfying sound depending on if the user has won or lost the game.
 
-* An icon that will represent the home screen will be available to the user so that they can click it if they would like to revisit the home screen.
+* An icon that represents the home screen will be available to the user in the top left corner of the screen, so that they can click it if they would like to revisit the home screen.
 
-* An icon that will represent the audio being on will be available to the user so that they can click it to toggle the game audio on and off.
+* An icon that represents the audio being on will be available to the user in the top right corner of the screen, so that they can click it to toggle the game audio on or off.
 
 ### Skeleton
 
 * #### Wireframes
 
-I used Balsamiq to create wireframes of how the product would look on different devices. Changes were made to a few of the designs shown below during development.
+I used Balsamiq to create wireframes of how the product would look on different devices. There were few changes made to the designs shown below during development.
 
 * Home Screen
 ![Home Screen Desktop](/assets/wireframes/desktop-home-view.png)
@@ -117,7 +117,7 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
     * Icons:
 
-        - Font Awesome was also used in the creation of this project in order to add icons for all of the player options, navigation and audio buttons.
+        - Font Awesome was also used in the creation of this project by providing the icons for all of the player options, navigation and audio buttons.
 
 ### Features
 
