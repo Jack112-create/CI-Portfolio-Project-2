@@ -216,7 +216,7 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 ![Testing Bonus Script](assets/testing/bonus-test.png)
 
-* The list of undefined variables shown within the bonus.js testing are all declared within the main script.js file. This once again did not cause any issues with the games functionality, as these variables were accessible due to the global scope.
+* The list of undefined variables shown within the bonus.js testing are all declared within the main script.js file. This once again, did not cause any issues with the games functionality, as these variables were accessible due to the global scope.
 
 
 #### Browser Testing
