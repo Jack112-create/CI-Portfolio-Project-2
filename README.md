@@ -210,6 +210,15 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 [JSHint JavaScript Validator](https://jshint.com/) was used to validate the JavaScript.
 
+![Testing Main Script](assets/testing/main-test.png)
+
+* The undefined variable above is due to the variable being declared within the bonus.js file. This did not cause any issues as the variable was both accessible and fully functional within the script.js file due to the global scope.
+
+![Testing Bonus Script](assets/testing/bonus-test.png)
+
+* The list of undefined variables shown within the bonus.js testing are all declared within the main script.js file. This once again did not cause any issues with the games functionality, as these variables were accessible due to the global scope.
+
+
 #### Browser Testing
 
 The site was tested on multiple browsers such as Chrome, Safari, FireFox, and works as intended.
