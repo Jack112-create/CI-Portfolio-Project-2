@@ -110,7 +110,7 @@ function bonusShowWinner(winnerModal, modalHeader, modalParagraph) {
     if (playerScore === 4) {
         winnerModal.style.display = 'block';
         modalHeader.textContent = 'You Win The Game!';
-        modalParagraph.textContent = `Congragulations You know you're languages! You must be a Developer. `;
+        modalParagraph.textContent = `Congragulations You know your languages! You must be a Developer. `;
         winSound.play();
     } else if (computerScore === 4) {
         winnerModal.style.display = 'block';
