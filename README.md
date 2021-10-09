@@ -203,6 +203,8 @@ I used Balsamiq to create wireframes of how the product would look on different 
 [W3C HTML validator](https://validator.w3.org/nu/#textarea) was used to validate the sites HTML. 
 ![HTML Validation](assets/testing/html-validator.png)
 
+* In order to pass the W3C HTML Validator with no errors, placeholder text was inputted into the index.html file.
+
 #### CSS
 
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) was used to validate CSS used to style the site.
