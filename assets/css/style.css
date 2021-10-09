@@ -27,10 +27,11 @@ html {
 }
 
 #home-screen {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10%;
+    justify-content: center;
 }
 
 #home-screen h1 {
@@ -227,12 +228,7 @@ html {
 
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
-    #home-screen {
-        margin: 0;
-        justify-content: center;
-        height: 100vh;
-    }
-
+   
     #home-screen h1 {
         font-size: 4rem;
     }
