@@ -256,14 +256,14 @@ The site was tested on multiple browsers such as Chrome, Safari, FireFox, and wo
 
 #### Media
 
-* Am I Responsive is used to display responsiveness on different devices.
+* [Am I Responsive](http://ami.responsivedesign.is/#) is used to display responsiveness on different devices.
 
 * [Free SFX](https://freesfx.co.uk/Default.aspx) provided sounds for the game.
 
 * [Flaticon](https://www.flaticon.com/free-icon/html-coding_13706) provided images of the languages used for the bonus game.
 
-* [Favicon.io](https://favicon.io/) was used to generate the site favicon.
+* [Favicon.io](https://favicon.io/) is used to generate the site favicon.
 
-* [Prism JS](https://prismjs.com/) was used to apply syntax highlighting to the bonus game questions.
+* [Prism JS](https://prismjs.com/) is used to apply syntax highlighting to the bonus game questions.
 
 * [W3Schools](https://www.w3schools.com/) provided me with inspiration on how to create the winner modal.
