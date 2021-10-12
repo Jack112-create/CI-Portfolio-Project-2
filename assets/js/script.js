@@ -74,9 +74,6 @@ toggleAudio.addEventListener('click', (e) => {
     }
 });
 
-
-
-
 /**
  * Creates an array of choices.
  * Generates a random choice from choices array.
@@ -98,7 +95,6 @@ function displayComputerChoice() {
     let computerIcon = document.getElementById('computer-icon');
     computerIcon.className = `far fa-hand-${computerChoice}`;
 }
-
 
 /**
  * Checks a concatenated string of userChoice and ComputerChoice.
@@ -180,7 +176,6 @@ function showWinner(winnerModal, modalHeader, modalParagraph) {
     }
 }
 
-
 /**
  * Checks the ID of the element that has been clicked on.
  * The generateComputerChoice function is invoked.
@@ -204,7 +199,6 @@ function closeModal(modal) {
     modal.style.display = 'none';
     resetGame(scoreHTML, computerHTML);
 }
-
 
 /**
  * Player parameters are passed.
