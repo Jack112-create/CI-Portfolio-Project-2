@@ -196,7 +196,7 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 ![Bonus Game](assets/features/bonus-game.png)
 
-#### Features left to implement
+#### Future Features
 
 * I plan on adding a system to keep track of the players highest score. Adding this feature will make the user want to think more critically about their choices, as they will need to  perform better each time they play in order to beat their previous score.
 
