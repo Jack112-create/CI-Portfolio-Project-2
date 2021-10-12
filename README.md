@@ -24,6 +24,7 @@ This game is targeted towards people who are looking for both a fun and nostalgi
         * [HTML Validation](#HTML)
         * [CSS Validation](#CSS)
         * [JavaScript Validation](#JavaScript)
+    * [Fixed Bugs](#Fixed-Bugs)
     * [Deployment](#Deployment)
     * [Credits](#Credits)
     
@@ -234,6 +235,10 @@ The site was tested on multiple browsers such as Chrome, Safari, FireFox, and wo
 ### Lighthouse Testing
 
 ![Lighthouse Test](assets/testing/lighthouse.png)
+
+### Fixed Bugs
+
+The mute button did not function correctly in the beginning since the element was created twice using the same ID for both game screens. This would only allow me to target one of the two mute buttons created. In order to fix this I removed the second mute button and would used only 1 mute button that would display on both game screens.
 
 ### Deployment
 
