@@ -168,6 +168,7 @@ html {
     margin: 1rem;
 }
 
+/* Inspiration from W3Schools modal layout. */
 .winner-modal {
     display: none; /* Modal is hidden by default */
     position: fixed; 
@@ -180,7 +181,7 @@ html {
     background-color: rgba(0,0,0,0.4); 
 }
 
-
+/* Inspiration from W3Schools modal layout. */
 .modal-content {
     position: relative;
     background-color: #f1d68b;

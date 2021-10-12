@@ -263,3 +263,7 @@ The site was tested on multiple browsers such as Chrome, Safari, FireFox, and wo
 * [Flaticon](https://www.flaticon.com/free-icon/html-coding_13706) provided images of the languages used for the bonus game.
 
 * [Favicon.io](https://favicon.io/) was used to generate the site favicon.
+
+* [Prism JS](https://prismjs.com/) was used to apply syntax highlighting to the bonus game questions.
+
+* [W3Schools](https://www.w3schools.com/) provided me with inspiration on how to create the winner modal.
