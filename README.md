@@ -186,7 +186,7 @@ I used Balsamiq to create wireframes of how the product would look on different 
 
 * As a user, I want to be able to toggle the game audio.
 
-### Bonus Game
+#### Bonus Game
 
 - The Bonus Game gives the user the opportunity to test their knowledge of tech langauges!
 
@@ -195,6 +195,10 @@ I used Balsamiq to create wireframes of how the product would look on different 
 - The user must then select the correct language that corresponds with the block of code that is displayed by the computer.
 
 ![Bonus Game](assets/features/bonus-game.png)
+
+#### Features left to implement
+
+* I plan on adding a system to keep track of the players highest score. Adding this feature will make the user want to think more critically about their choices, as they will need to  perform better each time they play in order to beat their previous score.
 
 ### Testing
 
