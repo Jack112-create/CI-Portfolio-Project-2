@@ -238,7 +238,7 @@ The site was tested on multiple browsers such as Chrome, Safari, FireFox, and wo
 
 ### Fixed Bugs
 
-The mute button did not function correctly in the beginning since the element was created twice using the same ID for both game screens. This would only allow me to target one of the two mute buttons created. In order to fix this I removed the second mute button and would used only 1 mute button that would display on both game screens.
+The mute button did not function correctly in the beginning since the element was created twice using the same ID for both game screens. This would only allow me to target one of the two mute buttons created. In order to fix this I removed the second mute button and would use a single mute button element that would display on both game screens.
 
 ### Deployment
 
